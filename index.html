@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magenta Security — IT Security Game</title>
+  <meta name="description" content="Magenta Security ist ein stylisches IT-Security-Game im First-Person-Look. Entdecke Features, Gameplay, Trailer, Steam Wishlist und Discord." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scanline"></div>
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+
+  <header class="topbar">
+    <div class="wrap nav">
+      <a href="#hero" class="logo">
+        <span class="logo-mark"></span>
+        <span class="logo-text">Magenta Security</span>
+      </a>
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#systems">Systems</a>
+        <a href="#media">Media</a>
+        <a href="#community">Community</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-btn ghost" href="#community">Discord</a>
+        <a class="nav-btn primary" href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Wishlist on Steam</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status-pill">
+            <span class="dot"></span>
+            <span>In Development • Security Awareness Game</span>
+          </div>
+
+          <h1>
+            <span>Secure the office.</span>
+            <span class="accent">Catch every mistake.</span>
+          </h1>
+
+          <p class="hero-text">
+            <strong>Magenta Security</strong> is a stylized first-person game where you patrol a company building,
+            spot security mistakes, and prevent incidents before they spiral out of control.
+          </p>
+
+          <div class="hero-badges">
+            <span>First Person</span>
+            <span>Dynamic NPC Incidents</span>
+            <span>Corporate Security Chaos</span>
+          </div>
+
+          <div class="cta-row">
+            <a class="cta primary" href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Wishlist on Steam</a>
+            <a class="cta secondary" href="#media">Watch Gameplay</a>
+            <a class="cta discord" href="https://discord.com/" target="_blank" rel="noopener noreferrer">Join Discord</a>
+          </div>
+
+          <div class="countdown-shell">
+            <div class="countdown-title">Reveal Countdown</div>
+            <div class="countdown-grid">
+              <div><span id="days">00</span><small>Days</small></div>
+              <div><span id="hours">00</span><small>Hours</small></div>
+              <div><span id="minutes">00</span><small>Minutes</small></div>
+              <div><span id="seconds">00</span><small>Seconds</small></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="hero-screen">
+            <div class="screen-top">
+              <span class="mini-pill danger">Threat Monitor</span>
+              <span class="mini-pill info">Office Zone A-17</span>
+            </div>
+            <img src="gameplay_fp.png" alt="Magenta Security First Person Gameplay" />
+            <div class="screen-overlay">
+              <div class="corner corner-tl"></div>
+              <div class="corner corner-tr"></div>
+              <div class="corner corner-bl"></div>
+              <div class="corner corner-br"></div>
+              <div class="hud-card left">USB Risk detected</div>
+              <div class="hud-card right">Phishing in progress</div>
+            </div>
+          </div>
+          <div class="alert-strip">
+            <span></span>
+            <p>Unknown USB · Unlocked workstation · Open secure room · Suspicious email</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap feature-layout">
+        <div class="text-side reveal">
+          <div class="eyebrow">Game Premise</div>
+          <h2>A modern IT-security style built for a game, not a boring corporate page.</h2>
+          <p>
+            The game puts you inside a lively office environment where employees constantly create avoidable risks.
+            You move in first person, read the room, reach the danger fast, and stop incidents with smart reactions.
+          </p>
+        </div>
+        <div class="glass-card reveal">
+          <div class="glass-head">
+            <span class="mini-pill magenta">Core Loop</span>
+          </div>
+          <ul class="loop-list">
+            <li>Patrol the office floor and look for suspicious behavior</li>
+            <li>Catch real-world security failures created by NPCs</li>
+            <li>Resolve incidents before time runs out</li>
+            <li>Build score, maintain compliance, prevent chaos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="systems" class="section systems-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">Systems</div>
+          <h2>Gameplay systems that fit the concept</h2>
+        </div>
+
+        <div class="systems-grid">
+          <article class="system-card reveal">
+            <span class="card-index">01</span>
+            <h3>First-Person Patrol</h3>
+            <p>Explore the building naturally with mouse and keyboard, instead of point-and-click menus.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="card-index">02</span>
+            <h3>Dynamic NPC Mistakes</h3>
+            <p>Employees trigger real security issues such as phishing, bad USB usage or unlocked devices.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="card-index">03</span>
+            <h3>Readable Threat UX</h3>
+            <p>Strong visual markers and modern UI help the player instantly understand where the danger is.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="card-index">04</span>
+            <h3>Awareness Through Play</h3>
+            <p>The concept works as an actual game and as a security-awareness experience for companies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section media-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">Media</div>
+          <h2>Gameplay impressions and concept trailer</h2>
+        </div>
+
+        <div class="media-grid">
+          <div class="video-card reveal">
+            <div class="video-top">
+              <span class="mini-pill info">Concept Trailer</span>
+              <span class="mini-pill magenta">Animated Preview</span>
+            </div>
+            <div class="video-frame">
+              <img src="concept_trailer.gif" alt="Magenta Security concept trailer" />
+              <div class="play-badge">Preview</div>
+            </div>
+          </div>
+
+          <div class="gallery-stack">
+            <figure class="shot-card reveal">
+              <img src="cover.png" alt="Magenta Security Cover Art" />
+              <figcaption>Key art with a stronger identity for the game.</figcaption>
+            </figure>
+            <figure class="shot-card reveal">
+              <img src="gameplay_ui.png" alt="Magenta Security UI concept" />
+              <figcaption>UI direction for objectives, warnings and live incidents.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="community" class="section community-section">
+      <div class="wrap community-grid">
+        <div class="community-copy reveal">
+          <div class="eyebrow">Community & Launch</div>
+          <h2>Follow the project before release</h2>
+          <p>
+            Want updates, screenshots, gameplay progress and release news? Join the community and put the game on your Steam wishlist.
+          </p>
+        </div>
+        <div class="community-card reveal">
+          <a class="big-action steam" href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">
+            <span class="action-label">Steam</span>
+            <strong>Wishlist Magenta Security</strong>
+            <small>Be notified when the game is ready</small>
+          </a>
+          <a class="big-action discord" href="https://discord.com/" target="_blank" rel="noopener noreferrer">
+            <span class="action-label">Discord</span>
+            <strong>Join the Community Server</strong>
+            <small>Share feedback, ideas and dev talk</small>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <div>
+        <strong>Magenta Security</strong>
+        <p>Stylized office security gameplay with a fresh IT-focused aesthetic.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#media">Media</a>
+        <a href="#community">Community</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
